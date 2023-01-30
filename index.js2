@@ -1,0 +1,197 @@
+// Copyright (c) by Philip
+// Licensed under the MIT License.
+
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+const { prefix, token, cookie, color } = require('./config.json'); // Get your token, prefix and cookie from here..
+const nblx = require("noblox.js"); // The module of roblox..   
+const fs = require('fs');
+var groupId = 6125527 // Your group id
+
+// To change the permissions go to line 30, 56, 99 ,127, 155, 176
+
+// Logining in..
+nblx.setCookie(cookie) // Logs into the acc
+bot.on('ready', () => {
+	console.log(`Nobloxjs bot is ready! and logged in as ${bot.user.tag}`); // Make bot online..
+});
+
+
+//  All the commands! do not edit ( you can edit msgs )
+
+bot.on("message", message => {
+    const args = message.content.slice(prefix.length).trim().split(' ');
+    const command = args.shift().toLowerCase();
+    if (command ===  "accept") {
+        const member = message.author;
+        const name = message.author.username;
+        const url = member.displayAvatarURL();
+        if(message.member.hasPermission('ADMINISTRATOR')) {
+        if (!args[0]) {
+            message.channel.send(":x: 닉네임을 입력해주세요!")
+        } else {
+            const mem = args[0];
+            nblx.getIdFromUsername(mem).then(id => {
+                if(!id){
+                    message.channel.send(":x: 그룹 요청에서 해당 사용자를 찾을 수 없습니다!!");
+                } else {
+                    const embed = new Discord.MessageEmbed()
+                    .setColor(`${color}`)
+                    .setThumbnail(`https://www.roblox.com/bust-thumbnail/image?userId=${id}&width=420&height=420&format=png`)
+                    .setTitle("Roblox 그룹 수락자")
+                    .setDescription(`그룹에서 **${args}**(${id}) 허용됨!`)
+                    nblx.handleJoinRequest(groupId, id, true)
+                    message.channel.send(embed);
+                }
+            });
+            console.log(args[0]);
+        }
+    } else {
+        message.channel.send(":x: 이 명령어를 사용하는 데 필요한 역할이 없습니다.");
+    }
+    }
+    if (command === "promote") {
+        const member = message.author;
+        const name = message.author.username;
+        const url = member.displayAvatarURL();
+        if(message.member.hasPermission('ADMINISTRATOR')) { 
+        if (!args[0]) {
+            message.channel.send(":x: 닉네임을 입력해주세요!")
+        } else {
+            const mem = args[0];
+            nblx.getIdFromUsername(mem).then(id => {
+                if(!id){
+                    message.channel.send(":x: 그룹에서 해당 사용자를 찾을 수 없습니다!!");
+                } else {
+                    nblx.changeRank(groupId, id, 1)
+                    const embed = new Discord.MessageEmbed()
+                    .setColor(`${color}`)
+                    .setThumbnail(`https://www.roblox.com/bust-thumbnail/image?userId=${id}&width=420&height=420&format=png`)
+                    .setTitle("처리중... ⏳") //Roblox 그룹 진급
+                    .setDescription(`그룹에서 **${args}**(${id})가 진급되었습니다!`)
+                    message.channel.send(embed);
+                }
+        });
+    }
+} else {
+    message.channel.send(":x: 이 명령을 사용하는 데 필요한 역할이 없습니다.");
+}
+}
+
+
+if (command === "help") {
+    const member = message.author;
+        const name = message.author.username;
+        const url = member.displayAvatarURL();
+        const embed = new Discord.MessageEmbed()
+        .setColor(`${color}`)
+        .setThumbnail(`${bot.user.displayAvatarURL()}`)
+        .setTitle(`${bot.user.username} Commands`)
+        .setDescription(`${prefix}help -- 명령 목록 표시\n${prefix}accept [player_name] -- 그룹의 플레이어 수락\n${prefix}promote [player_name]  -- 해당 플레이어를 1등급 진급\n${prefix}demote [player_name] -- 강등 1등급에 해당하는 플레이어\n${prefix}shout [msg] -- 그룹 담벼락에 메시지를 공지합니다 (미완성)..\n${prefix}postwall [msg] -- 담벼락에 메시지를 게시합니다 (미완성)..\n${prefix }kick [player_Name] -- 그룹에서 플레이어를 추방합니다.`)
+        .setFooter(`${name}`,`${url}`)
+        message.channel.send(embed);
+}
+
+
+if (command === "demote") {
+    const member = message.author;
+    const name = message.author.username;
+    const url = member.displayAvatarURL();
+    if(message.member.hasPermission('ADMINISTRATOR')) {
+    if (!args[0]) {
+        message.channel.send(":x: 닉네임을 입력해주세요!")
+    } else {
+        const mem = args[0];
+        nblx.getIdFromUsername(mem).then(id => {
+            if(!id){
+                message.channel.send(":x: 그룹에서 해당 사용자를 찾을 수 없습니다!!");
+            } else {
+                nblx.changeRank(groupId, id, -1)
+                const embed = new Discord.MessageEmbed()
+                .setColor(`${color}`)
+                .setThumbnail(`https://www.roblox.com/bust-thumbnail/image?userId=${id}&width=420&height=420&format=png`)
+                .setTitle("처리중... ⏳") //로블록스 그룹 강등
+                .setDescription(`그룹에서 **${args}**(${id})가 강등되었습니다!`)
+                message.channel.send(embed);
+            }
+    });
+}
+} else {
+message.channel.send(":x: 이 명령어를 사용하는 데 필요한 역할이 없습니다.");
+}
+}
+
+if (command === "kick") {
+    const member = message.author;
+    const name = message.author.username;
+    const url = member.displayAvatarURL();
+    if(message.member.hasPermission('ADMINISTRATOR')) {
+    if (!args[0]) {
+        message.channel.send(":x: 닉네임을 입력해주세요!")
+    } else {
+        const mem = args[0];
+        nblx.getIdFromUsername(mem).then(id => {
+            if(!id){
+                message.channel.send(":x: 그룹에서 해당 사용자를 찾을 수 없습니다!!");
+            } else {
+                nblx.exile(groupId, id)
+                const embed = new Discord.MessageEmbed()
+                .setColor(`${color}`)
+                .setThumbnail(`https://www.roblox.com/bust-thumbnail/image?userId=${id}&width=420&height=420&format=png`)
+                .setTitle("처리중... ⏳") //로블록스 그룹 추방
+                .setDescription(`**${args}** (${id})가 이제 그룹에서 추방되었습니다!`)
+                message.channel.send(embed);
+            }
+    });
+}
+} else {
+message.channel.send(":x: 이 명령어를 사용하는 데 필요한 역할이 없습니다.");
+}
+}
+
+if (command === "shout") {
+    const member = message.author;
+    const name = message.author.username;
+    const url = member.displayAvatarURL();
+    if(message.member.hasPermission('ADMINISTRATOR')) { 
+    if (!args[0]) {
+        message.channel.send(":x: 메시지를 넣어주세요!")
+    } else {
+        const embed = new Discord.MessageEmbed()
+                .setColor(`${color}`)
+                .setThumbnail(`${nblx.getLogo(groupId)}`)
+                .setTitle("Roblox 그룹 공지")
+                .setDescription(`성공적으로 공지됨: **${args}** 그룹에 공지!`)
+                message.channel.send(embed);
+                nblx.shout({ group: groupId, message: `${args}` })
+    }
+    } else {
+        message.channel.send(":x: 이 명령어를 사용하는 데 필요한 역할이 없습니다.");
+    }
+}
+
+if (command === "postwall") {
+    const member = message.author;
+    const name = message.author.username;
+    const url = member.displayAvatarURL();
+    if(message.member.hasPermission('ADMINISTRATOR')) {  // Change role name here
+    if (!args[0]) {
+        message.channel.send(":x: 메시지를 넣어주세요!")
+    } else {
+        const embed = new Discord.MessageEmbed()
+                .setColor(`${color}`)
+                .setThumbnail(`${nblx.getLogo(groupId)}`)
+                .setTitle("Roblox 그룹 담벼락")
+                .setDescription(`그룹 담벼락에 **${args}** 게시 완료!`)
+                message.channel.send(embed);
+                nbx.post(groupId, `${args}`)
+    }
+    } else {
+        message.channel.send(":x: 이 명령어를 사용하는 데 필요한 역할이 없습니다.");
+    }
+}
+
+});
+
+// Starts the bot
+bot.login(token);

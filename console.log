@@ -1,0 +1,382 @@
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+A/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25
+?    throw new Error('Cannot get CSRF: You are not logged in.')
+          ^
+
+/Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+Q    at exports.func (/home/node/node_modules/noblox.js/lib/group/exile.js:55:10)
+S    at Object.exile (/home/node/node_modules/noblox.js/lib/internal/wrap.js:73:14)
+"    at /home/node/index.js:183:22
+R    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.12.1
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+A/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25
+?    throw new Error('Cannot get CSRF: You are not logged in.')
+          ^
+
+/Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+Q    at exports.func (/home/node/node_modules/noblox.js/lib/group/exile.js:55:10)
+S    at Object.exile (/home/node/node_modules/noblox.js/lib/internal/wrap.js:73:14)
+"    at /home/node/index.js:183:22
+
+Node.js v18.12.1
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+7Unhandled rejection Error: Rank change is out of range
+G    at /home/node/node_modules/noblox.js/lib/group/changeRank.js:46:23
+CUnhandled rejection Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+S    at runWithToken (/home/node/node_modules/noblox.js/lib/group/setRank.js:61:10)
+D    at /home/node/node_modules/noblox.js/lib/group/setRank.js:74:14
+CUnhandled rejection Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+S    at runWithToken (/home/node/node_modules/noblox.js/lib/group/setRank.js:61:10)
+D    at /home/node/node_modules/noblox.js/lib/group/setRank.js:74:14
+7Unhandled rejection Error: Target user is not in group
+G    at /home/node/node_modules/noblox.js/lib/group/changeRank.js:33:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:729:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+J/home/node/node_modules/discord.js/src/client/actions/MessageCreate.js:11
+<      const existing = channel.messages.cache.get(data.id);
+*                                        ^
+
+ATypeError: Cannot read properties of undefined (reading 'cache')
+q    at MessageCreateAction.handle (/home/node/node_modules/discord.js/src/client/actions/MessageCreate.js:11:41)
+�    at module.exports [as MESSAGE_CREATE] (/home/node/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+z    at WebSocketManager.handlePacket (/home/node/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+r    at WebSocketShard.onPacket (/home/node/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+s    at WebSocketShard.onMessage (/home/node/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+S    at WebSocket.onMessage (/home/node/node_modules/ws/lib/event-target.js:132:16)
++    at WebSocket.emit (node:events:513:28)
+X    at Receiver.receiverOnMessage (/home/node/node_modules/ws/lib/websocket.js:1068:20)
+*    at Receiver.emit (node:events:513:28)
+P    at Receiver.dataMessage (/home/node/node_modules/ws/lib/receiver.js:517:14)
+L    at Receiver.getData (/home/node/node_modules/ws/lib/receiver.js:435:17)
+N    at Receiver.startLoop (/home/node/node_modules/ws/lib/receiver.js:143:22)
+J    at Receiver._write (/home/node/node_modules/ws/lib/receiver.js:78:10)
+=    at writeOrBuffer (node:internal/streams/writable:392:12)
+6    at _write (node:internal/streams/writable:333:10)
+>    at Writable.write (node:internal/streams/writable:337:10)
+T    at TLSSocket.socketOnData (/home/node/node_modules/ws/lib/websocket.js:1162:35)
++    at TLSSocket.emit (node:events:513:28)
+8    at addChunk (node:internal/streams/readable:324:12)
+?    at readableAddChunk (node:internal/streams/readable:297:9)
+=    at Readable.push (node:internal/streams/readable:234:10)
+G    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+
+Node.js v18.12.1
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+J/home/node/node_modules/discord.js/src/client/actions/MessageCreate.js:11
+<      const existing = channel.messages.cache.get(data.id);
+*                                        ^
+
+ATypeError: Cannot read properties of undefined (reading 'cache')
+q    at MessageCreateAction.handle (/home/node/node_modules/discord.js/src/client/actions/MessageCreate.js:11:41)
+�    at module.exports [as MESSAGE_CREATE] (/home/node/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+z    at WebSocketManager.handlePacket (/home/node/node_modules/discord.js/src/client/websocket/WebSocketManager.js:384:31)
+r    at WebSocketShard.onPacket (/home/node/node_modules/discord.js/src/client/websocket/WebSocketShard.js:444:22)
+s    at WebSocketShard.onMessage (/home/node/node_modules/discord.js/src/client/websocket/WebSocketShard.js:301:10)
+S    at WebSocket.onMessage (/home/node/node_modules/ws/lib/event-target.js:132:16)
++    at WebSocket.emit (node:events:513:28)
+X    at Receiver.receiverOnMessage (/home/node/node_modules/ws/lib/websocket.js:1068:20)
+*    at Receiver.emit (node:events:513:28)
+P    at Receiver.dataMessage (/home/node/node_modules/ws/lib/receiver.js:517:14)
+L    at Receiver.getData (/home/node/node_modules/ws/lib/receiver.js:435:17)
+N    at Receiver.startLoop (/home/node/node_modules/ws/lib/receiver.js:143:22)
+J    at Receiver._write (/home/node/node_modules/ws/lib/receiver.js:78:10)
+=    at writeOrBuffer (node:internal/streams/writable:392:12)
+6    at _write (node:internal/streams/writable:333:10)
+>    at Writable.write (node:internal/streams/writable:337:10)
+T    at TLSSocket.socketOnData (/home/node/node_modules/ws/lib/websocket.js:1162:35)
++    at TLSSocket.emit (node:events:513:28)
+8    at addChunk (node:internal/streams/readable:324:12)
+?    at readableAddChunk (node:internal/streams/readable:297:9)
+=    at Readable.push (node:internal/streams/readable:234:10)
+G    at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+
+Node.js v18.12.1
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+CUnhandled rejection Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+S    at runWithToken (/home/node/node_modules/noblox.js/lib/group/setRank.js:61:10)
+D    at /home/node/node_modules/noblox.js/lib/group/setRank.js:74:14
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+CUnhandled rejection Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+S    at runWithToken (/home/node/node_modules/noblox.js/lib/group/setRank.js:61:10)
+D    at /home/node/node_modules/noblox.js/lib/group/setRank.js:74:14
+A/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25
+?    throw new Error('Cannot get CSRF: You are not logged in.')
+          ^
+
+/Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+Q    at exports.func (/home/node/node_modules/noblox.js/lib/group/exile.js:55:10)
+S    at Object.exile (/home/node/node_modules/noblox.js/lib/internal/wrap.js:73:14)
+"    at /home/node/index.js:183:22
+R    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.12.1
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+A/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25
+?    throw new Error('Cannot get CSRF: You are not logged in.')
+          ^
+
+/Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+Q    at exports.func (/home/node/node_modules/noblox.js/lib/group/exile.js:55:10)
+S    at Object.exile (/home/node/node_modules/noblox.js/lib/internal/wrap.js:73:14)
+"    at /home/node/index.js:183:22
+
+Node.js v18.12.1
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+A/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25
+?    throw new Error('Cannot get CSRF: You are not logged in.')
+          ^
+
+/Error: Cannot get CSRF: You are not logged in.
+]    at getGeneralToken (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:25:11)
+K    at /home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:50:12
+N    at Object.add (/home/node/node_modules/noblox.js/lib/cache/wrap.js:14:18)
+S    at module.exports (/home/node/node_modules/noblox.js/lib/cache/addIf.js:21:15)
+@    at /home/node/node_modules/noblox.js/lib/cache/wrap.js:11:7
+!    at new Promise (<anonymous>)
+H    at wrap (/home/node/node_modules/noblox.js/lib/cache/wrap.js:10:12)
+\    at module.exports [as wrap] (/home/node/node_modules/noblox.js/lib/cache/wrap.js:24:10)
+Z    at exports.func (/home/node/node_modules/noblox.js/lib/util/getGeneralToken.js:49:16)
+Q    at exports.func (/home/node/node_modules/noblox.js/lib/group/exile.js:55:10)
+S    at Object.exile (/home/node/node_modules/noblox.js/lib/internal/wrap.js:73:14)
+"    at /home/node/index.js:183:22
+
+Node.js v18.12.1
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
+=Failed to validate cookie: Are you sure the cookie is valid?
+<Ensure you include the full cookie, including warning text.
+9Unhandled rejection Error: Error: You are not logged in.
+E    at /home/node/node_modules/noblox.js/lib/user/setCookie.js:36:15
+N    at tryCatcher (/home/node/node_modules/bluebird/js/release/util.js:16:23)
+i    at Promise._settlePromiseFromHandler (/home/node/node_modules/bluebird/js/release/promise.js:547:31)
+^    at Promise._settlePromise (/home/node/node_modules/bluebird/js/release/promise.js:604:18)
+_    at Promise._settlePromise0 (/home/node/node_modules/bluebird/js/release/promise.js:649:10)
+_    at Promise._settlePromises (/home/node/node_modules/bluebird/js/release/promise.js:725:18)
+T    at _drainQueueStep (/home/node/node_modules/bluebird/js/release/async.js:93:12)
+O    at _drainQueue (/home/node/node_modules/bluebird/js/release/async.js:86:9)
+W    at Async._drainQueues (/home/node/node_modules/bluebird/js/release/async.js:102:5)
+h    at Async.drainQueues [as _onImmediate] (/home/node/node_modules/bluebird/js/release/async.js:15:14)
+>    at process.processImmediate (node:internal/timers:471:21)
+>Nobloxjs bot is ready! and logged in as 그룹 관리봇#5038
